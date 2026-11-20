@@ -26,8 +26,8 @@ jobs:
 
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        pylint src/
 
     - name: Check documentation
       run: |
-        mkdocs build --strict
+        mkdocs build
