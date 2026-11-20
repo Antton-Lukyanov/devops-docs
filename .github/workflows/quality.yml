@@ -30,4 +30,4 @@ jobs:
 
     - name: Check documentation
       run: |
-        mkdocs build
+        mkdocs build --strict
